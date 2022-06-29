@@ -1,0 +1,26 @@
+html,
+body {
+  font-family: "Elice Digital Baeum", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  background-color: #ab47bc;
+}
+.navbar ul {
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  padding: 0 20px;
+  list-style: none;
+}
+div.sub-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
